@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(20, 133, 118); */
+    background-color: rgb(14, 82, 73);
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+    align-content: center;
+    justify-content: center;
+    margin-left: 34%;
+}
+.game{
+    height: 60vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    border-color: black;
+    box-shadow: 0,0,1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    background-color:bisque;
+    color: brown;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: fantasy;
+    color: #940f0f;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#msg {
+    color: antiquewhite;
+    font-size: 8vmin;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.msg-container {
+/* margin-bottom: 40vmin; */
+height: 100vmin;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 5rem;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: fantasy;
+    color: #fdfdf7;
+    background-color: rgb(226, 17, 233);
+    border:rgb(245, 14, 14);
+    border-radius: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.hide{
+    display: none;
+}
